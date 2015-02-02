@@ -1,0 +1,41 @@
+/* Spook Labs Co */
+
+body, a {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #303030;
+	text-align: center;
+	color: #fff;
+}
+
+.lead {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-bottom: 3em;
+}
+
+#soon-text {
+	font-size: 1.2em;
+	line-height: 2em;
+	margin-bottom: 4em;
+}
+
+#links {
+	font-size: 1.3em;
+	letter-spacing: 0.5em;
+	margin-left: 1em;
+}
+
+#links a .fa-twitter:hover {
+	color: #3498db;
+}
+
+#links a .fa-google-plus:hover {
+	color: #e74c3c;
+}
+
+#links a .fa-envelope-o:hover {
+	color: #2ecc71;
+}
